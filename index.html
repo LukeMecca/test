@@ -50,9 +50,551 @@ img.emoji {
 <link rel="https://api.w.org/" href="https://luke.mecca1.net/wp-json/">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://luke.mecca1.net/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.3.2">
-</head>
+	<style type="text/css" id="custom-theme-colors">/**
+ * Twenty Seventeen: Color Patterns
+ *
+ * Colors are ordered from dark to light.
+ */
 
-<body class="home blog wp-embed-responsive hfeed has-header-image colors-light">
+.colors-custom a:hover,
+.colors-custom a:active,
+.colors-custom .entry-content a:focus,
+.colors-custom .entry-content a:hover,
+.colors-custom .entry-summary a:focus,
+.colors-custom .entry-summary a:hover,
+.colors-custom .comment-content a:focus,
+.colors-custom .comment-content a:hover,
+.colors-custom .widget a:focus,
+.colors-custom .widget a:hover,
+.colors-custom .site-footer .widget-area a:focus,
+.colors-custom .site-footer .widget-area a:hover,
+.colors-custom .posts-navigation a:focus,
+.colors-custom .posts-navigation a:hover,
+.colors-custom .comment-metadata a:focus,
+.colors-custom .comment-metadata a:hover,
+.colors-custom .comment-metadata a.comment-edit-link:focus,
+.colors-custom .comment-metadata a.comment-edit-link:hover,
+.colors-custom .comment-reply-link:focus,
+.colors-custom .comment-reply-link:hover,
+.colors-custom .widget_authors a:focus strong,
+.colors-custom .widget_authors a:hover strong,
+.colors-custom .entry-title a:focus,
+.colors-custom .entry-title a:hover,
+.colors-custom .entry-meta a:focus,
+.colors-custom .entry-meta a:hover,
+.colors-custom.blog .entry-meta a.post-edit-link:focus,
+.colors-custom.blog .entry-meta a.post-edit-link:hover,
+.colors-custom.archive .entry-meta a.post-edit-link:focus,
+.colors-custom.archive .entry-meta a.post-edit-link:hover,
+.colors-custom.search .entry-meta a.post-edit-link:focus,
+.colors-custom.search .entry-meta a.post-edit-link:hover,
+.colors-custom .page-links a:focus .page-number,
+.colors-custom .page-links a:hover .page-number,
+.colors-custom .entry-footer a:focus,
+.colors-custom .entry-footer a:hover,
+.colors-custom .entry-footer .cat-links a:focus,
+.colors-custom .entry-footer .cat-links a:hover,
+.colors-custom .entry-footer .tags-links a:focus,
+.colors-custom .entry-footer .tags-links a:hover,
+.colors-custom .post-navigation a:focus,
+.colors-custom .post-navigation a:hover,
+.colors-custom .pagination a:not(.prev):not(.next):focus,
+.colors-custom .pagination a:not(.prev):not(.next):hover,
+.colors-custom .comments-pagination a:not(.prev):not(.next):focus,
+.colors-custom .comments-pagination a:not(.prev):not(.next):hover,
+.colors-custom .logged-in-as a:focus,
+.colors-custom .logged-in-as a:hover,
+.colors-custom a:focus .nav-title,
+.colors-custom a:hover .nav-title,
+.colors-custom .edit-link a:focus,
+.colors-custom .edit-link a:hover,
+.colors-custom .site-info a:focus,
+.colors-custom .site-info a:hover,
+.colors-custom .widget .widget-title a:focus,
+.colors-custom .widget .widget-title a:hover,
+.colors-custom .widget ul li a:focus,
+.colors-custom .widget ul li a:hover {
+	color: hsl( 0, 50%, 0% ); /* base: #000; */
+}
+
+.colors-custom .entry-content a,
+.colors-custom .entry-summary a,
+.colors-custom .comment-content a,
+.colors-custom .widget a,
+.colors-custom .site-footer .widget-area a,
+.colors-custom .posts-navigation a,
+.colors-custom .widget_authors a strong {
+	-webkit-box-shadow: inset 0 -1px 0 hsl( 0, 50%, 6% ); /* base: rgba(15, 15, 15, 1); */
+	box-shadow: inset 0 -1px 0 hsl( 0, 50%, 6% ); /* base: rgba(15, 15, 15, 1); */
+}
+
+.colors-custom button,
+.colors-custom input[type="button"],
+.colors-custom input[type="submit"],
+.colors-custom .entry-footer .edit-link a.post-edit-link {
+	background-color: hsl( 0, 50%, 13% ); /* base: #222; */
+}
+
+.colors-custom input[type="text"]:focus,
+.colors-custom input[type="email"]:focus,
+.colors-custom input[type="url"]:focus,
+.colors-custom input[type="password"]:focus,
+.colors-custom input[type="search"]:focus,
+.colors-custom input[type="number"]:focus,
+.colors-custom input[type="tel"]:focus,
+.colors-custom input[type="range"]:focus,
+.colors-custom input[type="date"]:focus,
+.colors-custom input[type="month"]:focus,
+.colors-custom input[type="week"]:focus,
+.colors-custom input[type="time"]:focus,
+.colors-custom input[type="datetime"]:focus,
+.colors-custom .colors-custom input[type="datetime-local"]:focus,
+.colors-custom input[type="color"]:focus,
+.colors-custom textarea:focus,
+.colors-custom button.secondary,
+.colors-custom input[type="reset"],
+.colors-custom input[type="button"].secondary,
+.colors-custom input[type="reset"].secondary,
+.colors-custom input[type="submit"].secondary,
+.colors-custom a,
+.colors-custom .site-title,
+.colors-custom .site-title a,
+.colors-custom .navigation-top a,
+.colors-custom .dropdown-toggle,
+.colors-custom .menu-toggle,
+.colors-custom .page .panel-content .entry-title,
+.colors-custom .page-title,
+.colors-custom.page:not(.twentyseventeen-front-page) .entry-title,
+.colors-custom .page-links a .page-number,
+.colors-custom .comment-metadata a.comment-edit-link,
+.colors-custom .comment-reply-link .icon,
+.colors-custom h2.widget-title,
+.colors-custom mark,
+.colors-custom .post-navigation a:focus .icon,
+.colors-custom .post-navigation a:hover .icon,
+.colors-custom .site-content .site-content-light,
+.colors-custom .twentyseventeen-panel .recent-posts .entry-header .edit-link {
+	color: hsl( 0, 50%, 13% ); /* base: #222; */
+}
+
+.colors-custom .entry-content a:focus,
+.colors-custom .entry-content a:hover,
+.colors-custom .entry-summary a:focus,
+.colors-custom .entry-summary a:hover,
+.colors-custom .comment-content a:focus,
+.colors-custom .comment-content a:hover,
+.colors-custom .widget a:focus,
+.colors-custom .widget a:hover,
+.colors-custom .site-footer .widget-area a:focus,
+.colors-custom .site-footer .widget-area a:hover,
+.colors-custom .posts-navigation a:focus,
+.colors-custom .posts-navigation a:hover,
+.colors-custom .comment-metadata a:focus,
+.colors-custom .comment-metadata a:hover,
+.colors-custom .comment-metadata a.comment-edit-link:focus,
+.colors-custom .comment-metadata a.comment-edit-link:hover,
+.colors-custom .comment-reply-link:focus,
+.colors-custom .comment-reply-link:hover,
+.colors-custom .widget_authors a:focus strong,
+.colors-custom .widget_authors a:hover strong,
+.colors-custom .entry-title a:focus,
+.colors-custom .entry-title a:hover,
+.colors-custom .entry-meta a:focus,
+.colors-custom .entry-meta a:hover,
+.colors-custom.blog .entry-meta a.post-edit-link:focus,
+.colors-custom.blog .entry-meta a.post-edit-link:hover,
+.colors-custom.archive .entry-meta a.post-edit-link:focus,
+.colors-custom.archive .entry-meta a.post-edit-link:hover,
+.colors-custom.search .entry-meta a.post-edit-link:focus,
+.colors-custom.search .entry-meta a.post-edit-link:hover,
+.colors-custom .page-links a:focus .page-number,
+.colors-custom .page-links a:hover .page-number,
+.colors-custom .entry-footer .cat-links a:focus,
+.colors-custom .entry-footer .cat-links a:hover,
+.colors-custom .entry-footer .tags-links a:focus,
+.colors-custom .entry-footer .tags-links a:hover,
+.colors-custom .post-navigation a:focus,
+.colors-custom .post-navigation a:hover,
+.colors-custom .pagination a:not(.prev):not(.next):focus,
+.colors-custom .pagination a:not(.prev):not(.next):hover,
+.colors-custom .comments-pagination a:not(.prev):not(.next):focus,
+.colors-custom .comments-pagination a:not(.prev):not(.next):hover,
+.colors-custom .logged-in-as a:focus,
+.colors-custom .logged-in-as a:hover,
+.colors-custom a:focus .nav-title,
+.colors-custom a:hover .nav-title,
+.colors-custom .edit-link a:focus,
+.colors-custom .edit-link a:hover,
+.colors-custom .site-info a:focus,
+.colors-custom .site-info a:hover,
+.colors-custom .widget .widget-title a:focus,
+.colors-custom .widget .widget-title a:hover,
+.colors-custom .widget ul li a:focus,
+.colors-custom .widget ul li a:hover {
+	-webkit-box-shadow: inset 0 0 0 hsl( 0, 50%, 13% ), 0 3px 0 hsl( 0, 50%, 13% );
+	box-shadow: inset 0 0 0 hsl( 0, 50% , 13% ), 0 3px 0 hsl( 0, 50%, 13% );
+}
+
+body.colors-custom,
+.colors-custom button,
+.colors-custom input,
+.colors-custom select,
+.colors-custom textarea,
+.colors-custom h3,
+.colors-custom h4,
+.colors-custom h6,
+.colors-custom label,
+.colors-custom .entry-title a,
+.colors-custom.twentyseventeen-front-page .panel-content .recent-posts article,
+.colors-custom .entry-footer .cat-links a,
+.colors-custom .entry-footer .tags-links a,
+.colors-custom .format-quote blockquote,
+.colors-custom .nav-title,
+.colors-custom .comment-body,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-album {
+	color: hsl( 0, 40%, 20% ); /* base: #333; */
+}
+
+.colors-custom .social-navigation a:hover,
+.colors-custom .social-navigation a:focus {
+	background: hsl( 0, 40%, 20% ); /* base: #333; */
+}
+
+.colors-custom input[type="text"]:focus,
+.colors-custom input[type="email"]:focus,
+.colors-custom input[type="url"]:focus,
+.colors-custom input[type="password"]:focus,
+.colors-custom input[type="search"]:focus,
+.colors-custom input[type="number"]:focus,
+.colors-custom input[type="tel"]:focus,
+.colors-custom input[type="range"]:focus,
+.colors-custom input[type="date"]:focus,
+.colors-custom input[type="month"]:focus,
+.colors-custom input[type="week"]:focus,
+.colors-custom input[type="time"]:focus,
+.colors-custom input[type="datetime"]:focus,
+.colors-custom input[type="datetime-local"]:focus,
+.colors-custom input[type="color"]:focus,
+.colors-custom textarea:focus,
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+	border-color: hsl( 0, 40%, 20% ); /* base: #333; */
+}
+
+.colors-custom h2,
+.colors-custom blockquote,
+.colors-custom input[type="text"],
+.colors-custom input[type="email"],
+.colors-custom input[type="url"],
+.colors-custom input[type="password"],
+.colors-custom input[type="search"],
+.colors-custom input[type="number"],
+.colors-custom input[type="tel"],
+.colors-custom input[type="range"],
+.colors-custom input[type="date"],
+.colors-custom input[type="month"],
+.colors-custom input[type="week"],
+.colors-custom input[type="time"],
+.colors-custom input[type="datetime"],
+.colors-custom input[type="datetime-local"],
+.colors-custom input[type="color"],
+.colors-custom textarea,
+.colors-custom .site-description,
+.colors-custom .entry-content blockquote.alignleft,
+.colors-custom .entry-content blockquote.alignright,
+.colors-custom .colors-custom .taxonomy-description,
+.colors-custom .site-info a,
+.colors-custom .wp-caption,
+.colors-custom .gallery-caption {
+	color: hsl( 0, 50%, 40% ); /* base: #666; */
+}
+
+.colors-custom abbr,
+.colors-custom acronym {
+	border-bottom-color: hsl( 0, 50%, 40% ); /* base: #666; */
+}
+
+.colors-custom h5,
+.colors-custom .entry-meta,
+.colors-custom .entry-meta a,
+.colors-custom.blog .entry-meta a.post-edit-link,
+.colors-custom.archive .entry-meta a.post-edit-link,
+.colors-custom.search .entry-meta a.post-edit-link,
+.colors-custom .nav-subtitle,
+.colors-custom .comment-metadata,
+.colors-custom .comment-metadata a,
+.colors-custom .no-comments,
+.colors-custom .comment-awaiting-moderation,
+.colors-custom .page-numbers.current,
+.colors-custom .page-links .page-number,
+.colors-custom .navigation-top .current-menu-item > a,
+.colors-custom .navigation-top .current_page_item > a,
+.colors-custom .main-navigation a:hover,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
+	color: hsl( 0, 50%, 46% ); /* base: #767676; */
+}
+
+.colors-custom :not( .mejs-button ) > button:hover,
+.colors-custom :not( .mejs-button ) > button:focus,
+.colors-custom input[type="button"]:hover,
+.colors-custom input[type="button"]:focus,
+.colors-custom input[type="submit"]:hover,
+.colors-custom input[type="submit"]:focus,
+.colors-custom .entry-footer .edit-link a.post-edit-link:hover,
+.colors-custom .entry-footer .edit-link a.post-edit-link:focus,
+.colors-custom .social-navigation a,
+.colors-custom .prev.page-numbers:focus,
+.colors-custom .prev.page-numbers:hover,
+.colors-custom .next.page-numbers:focus,
+.colors-custom .next.page-numbers:hover,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-item:hover,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-item:focus {
+	background: hsl( 0, 50%, 46% ); /* base: #767676; */
+}
+
+.colors-custom button.secondary:hover,
+.colors-custom button.secondary:focus,
+.colors-custom input[type="reset"]:hover,
+.colors-custom input[type="reset"]:focus,
+.colors-custom input[type="button"].secondary:hover,
+.colors-custom input[type="button"].secondary:focus,
+.colors-custom input[type="reset"].secondary:hover,
+.colors-custom input[type="reset"].secondary:focus,
+.colors-custom input[type="submit"].secondary:hover,
+.colors-custom input[type="submit"].secondary:focus,
+.colors-custom hr {
+	background: hsl( 0, 50%, 73% ); /* base: #bbb; */
+}
+
+.colors-custom input[type="text"],
+.colors-custom input[type="email"],
+.colors-custom input[type="url"],
+.colors-custom input[type="password"],
+.colors-custom input[type="search"],
+.colors-custom input[type="number"],
+.colors-custom input[type="tel"],
+.colors-custom input[type="range"],
+.colors-custom input[type="date"],
+.colors-custom input[type="month"],
+.colors-custom input[type="week"],
+.colors-custom input[type="time"],
+.colors-custom input[type="datetime"],
+.colors-custom input[type="datetime-local"],
+.colors-custom input[type="color"],
+.colors-custom textarea,
+.colors-custom select,
+.colors-custom fieldset,
+.colors-custom .widget .tagcloud a:hover,
+.colors-custom .widget .tagcloud a:focus,
+.colors-custom .widget.widget_tag_cloud a:hover,
+.colors-custom .widget.widget_tag_cloud a:focus,
+.colors-custom .wp_widget_tag_cloud a:hover,
+.colors-custom .wp_widget_tag_cloud a:focus {
+	border-color: hsl( 0, 50%, 73% ); /* base: #bbb; */
+}
+
+.colors-custom thead th {
+	border-bottom-color: hsl( 0, 50%, 73% ); /* base: #bbb; */
+}
+
+.colors-custom .entry-footer .cat-links .icon,
+.colors-custom .entry-footer .tags-links .icon {
+	color: hsl( 0, 50%, 73% ); /* base: #bbb; */
+}
+
+.colors-custom button.secondary,
+.colors-custom input[type="reset"],
+.colors-custom input[type="button"].secondary,
+.colors-custom input[type="reset"].secondary,
+.colors-custom input[type="submit"].secondary,
+.colors-custom .prev.page-numbers,
+.colors-custom .next.page-numbers {
+	background-color: hsl( 0, 50%, 87% ); /* base: #ddd; */
+}
+
+.colors-custom .widget .tagcloud a,
+.colors-custom .widget.widget_tag_cloud a,
+.colors-custom .wp_widget_tag_cloud a {
+	border-color: hsl( 0, 50%, 87% ); /* base: #ddd; */
+}
+
+.colors-custom.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child),
+.colors-custom .widget ul li {
+	border-top-color: hsl( 0, 50%, 87% ); /* base: #ddd; */
+}
+
+.colors-custom .widget ul li {
+	border-bottom-color: hsl( 0, 50%, 87% ); /* base: #ddd; */
+}
+
+.colors-custom pre,
+.colors-custom mark,
+.colors-custom ins {
+	background: hsl( 0, 50%, 93% ); /* base: #eee; */
+}
+
+.colors-custom .navigation-top,
+.colors-custom .main-navigation > div > ul,
+.colors-custom .pagination,
+.colors-custom .comments-pagination,
+.colors-custom .entry-footer,
+.colors-custom .site-footer {
+	border-top-color: hsl( 0, 50%, 93% ); /* base: #eee; */
+}
+
+.colors-custom .navigation-top,
+.colors-custom .main-navigation li,
+.colors-custom .entry-footer,
+.colors-custom .single-featured-image-header,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-item,
+.colors-custom tr {
+	border-bottom-color: hsl( 0, 50%, 93% ); /* base: #eee; */
+}
+
+.colors-custom .site-content .wp-playlist-light {
+	border-color: hsl( 0, 50%, 93% ); /* base: #eee; */
+}
+
+.colors-custom .site-header,
+.colors-custom .single-featured-image-header {
+	background-color: hsl( 0, 50%, 98% ); /* base: #fafafa; */
+}
+
+.colors-custom button,
+.colors-custom input[type="button"],
+.colors-custom input[type="submit"],
+.colors-custom .entry-footer .edit-link a.post-edit-link,
+.colors-custom .social-navigation a,
+.colors-custom .site-content .wp-playlist-light a.wp-playlist-caption:hover,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-item:hover a,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-item:focus a,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-item:hover,
+.colors-custom .site-content .wp-playlist-light .wp-playlist-item:focus,
+.colors-custom .prev.page-numbers:focus,
+.colors-custom .prev.page-numbers:hover,
+.colors-custom .next.page-numbers:focus,
+.colors-custom .next.page-numbers:hover,
+.colors-custom.has-header-image .site-title,
+.colors-custom.has-header-video .site-title,
+.colors-custom.has-header-image .site-title a,
+.colors-custom.has-header-video .site-title a,
+.colors-custom.has-header-image .site-description,
+.colors-custom.has-header-video .site-description {
+	color: hsl( 0, 50%, 100% ); /* base: #fff; */
+}
+
+body.colors-custom,
+.colors-custom .navigation-top,
+.colors-custom .main-navigation ul {
+	background: hsl( 0, 50%, 100% ); /* base: #fff; */
+}
+
+.colors-custom .widget ul li a,
+.colors-custom .site-footer .widget-area ul li a {
+	-webkit-box-shadow: inset 0 -1px 0 hsl( 0, 50%, 100% ); /* base: rgba(255, 255, 255, 1); */
+	box-shadow: inset 0 -1px 0 hsl( 0, 50%, 100% );  /* base: rgba(255, 255, 255, 1); */
+}
+
+.colors-custom .menu-toggle,
+.colors-custom .menu-toggle:hover,
+.colors-custom .menu-toggle:focus,
+.colors-custom .menu .dropdown-toggle,
+.colors-custom .menu-scroll-down,
+.colors-custom .menu-scroll-down:hover,
+.colors-custom .menu-scroll-down:focus {
+	background-color: transparent;
+}
+
+.colors-custom .widget .tagcloud a,
+.colors-custom .widget .tagcloud a:focus,
+.colors-custom .widget .tagcloud a:hover,
+.colors-custom .widget.widget_tag_cloud a,
+.colors-custom .widget.widget_tag_cloud a:focus,
+.colors-custom .widget.widget_tag_cloud a:hover,
+.colors-custom .wp_widget_tag_cloud a,
+.colors-custom .wp_widget_tag_cloud a:focus,
+.colors-custom .wp_widget_tag_cloud a:hover,
+.colors-custom .entry-footer .edit-link a.post-edit-link:focus,
+.colors-custom .entry-footer .edit-link a.post-edit-link:hover {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/* Reset non-customizable hover styling for links */
+.colors-custom .entry-content a:hover,
+.colors-custom .entry-content a:focus,
+.colors-custom .entry-summary a:hover,
+.colors-custom .entry-summary a:focus,
+.colors-custom .comment-content a:focus,
+.colors-custom .comment-content a:hover,
+.colors-custom .widget a:hover,
+.colors-custom .widget a:focus,
+.colors-custom .site-footer .widget-area a:hover,
+.colors-custom .site-footer .widget-area a:focus,
+.colors-custom .posts-navigation a:hover,
+.colors-custom .posts-navigation a:focus,
+.colors-custom .widget_authors a:hover strong,
+.colors-custom .widget_authors a:focus strong {
+	-webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+}
+
+.colors-custom .gallery-item a,
+.colors-custom .gallery-item a:hover,
+.colors-custom .gallery-item a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+@media screen and (min-width: 48em) {
+
+	.colors-custom .nav-links .nav-previous .nav-title .icon,
+	.colors-custom .nav-links .nav-next .nav-title .icon {
+		color: hsl( 0, 50%, 20% ); /* base: #222; */
+	}
+
+	.colors-custom .main-navigation li li:hover,
+	.colors-custom .main-navigation li li.focus {
+		background: hsl( 0, 50%, 46% ); /* base: #767676; */
+	}
+
+	.colors-custom .navigation-top .menu-scroll-down {
+		color: hsl( 0, 50%, 46% ); /* base: #767676; */;
+	}
+
+	.colors-custom abbr[title] {
+		border-bottom-color: hsl( 0, 50%, 46% ); /* base: #767676; */;
+	}
+
+	.colors-custom .main-navigation ul ul {
+		border-color: hsl( 0, 50%, 73% ); /* base: #bbb; */
+		background: hsl( 0, 50%, 100% ); /* base: #fff; */
+	}
+
+	.colors-custom .main-navigation ul li.menu-item-has-children:before,
+	.colors-custom .main-navigation ul li.page_item_has_children:before {
+		border-bottom-color: hsl( 0, 50%, 73% ); /* base: #bbb; */
+	}
+
+	.colors-custom .main-navigation ul li.menu-item-has-children:after,
+	.colors-custom .main-navigation ul li.page_item_has_children:after {
+		border-bottom-color: hsl( 0, 50%, 100% ); /* base: #fff; */
+	}
+
+	.colors-custom .main-navigation li li.focus > a,
+	.colors-custom .main-navigation li li:focus > a,
+	.colors-custom .main-navigation li li:hover > a,
+	.colors-custom .main-navigation li li a:hover,
+	.colors-custom .main-navigation li li a:focus,
+	.colors-custom .main-navigation li li.current_page_item a:hover,
+	.colors-custom .main-navigation li li.current-menu-item a:hover,
+	.colors-custom .main-navigation li li.current_page_item a:focus,
+	.colors-custom .main-navigation li li.current-menu-item a:focus {
+		color: hsl( 0, 50%, 100% ); /* base: #fff; */
+	}
+}</style>
+	</head>
+
+<body class="home blog wp-embed-responsive hfeed has-header-image has-sidebar colors-custom">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content">
 		Skip to content	</a>
@@ -92,7 +634,9 @@ img.emoji {
 
 	<div class="menu-top-menu-container"><ul id="top-menu" class="menu">
 <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-27"><a href="https://luke.mecca1.net/">Photo Blog</a></li>
-<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://luke.mecca1.net/example-home-page/">Photos</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://luke.mecca1.net/example-home-page/">Videos</a></li>
+<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a href="https://luke.mecca1.net/favorites/">Favorites</a></li>
+<li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-163"><a href="https://luke.mecca1.net/updates/">Updates</a></li>
 <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://luke.mecca1.net/about/">About</a></li>
 </ul></div>
 			<a href="#content" class="menu-scroll-down"><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xlink:href="#icon-arrow-right"></use> </svg><span class="screen-reader-text">
@@ -121,7 +665,7 @@ img.emoji {
 <article id="post-108" class="post-108 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/sprague-brooke-trail/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:50:58+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/sprague-brooke-trail/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:50:58+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T17:23:06+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/sprague-brooke-trail/" rel="bookmark">Sprague Brooke Trail</a></h3>	</header><!-- .entry-header -->
 
@@ -129,6 +673,10 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" width="3888" height="5184" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_7084-2-1.jpg" alt="" class="wp-image-109"></figure>
+
+
+
+<p class="has-medium-font-size">This photo was taken September 23, 2023, at Sprague Brooke park. I was on a walk through the multitude  of winding trails and stumbled across this little photogenic bridge. I had to walk a bit off the trail to get the  composition that I wanted and it took a few tries with the exposure to get the shadows and the highlights the best I could. After a little bit of editing to fix the lighting and to make colors pop, I think it turned out pretty good.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -138,7 +686,7 @@ img.emoji {
 <article id="post-105" class="post-105 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/sunset-boat/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:50:22+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/sunset-boat/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:50:22+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T14:45:36+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/sunset-boat/" rel="bookmark">Sunset Boat</a></h3>	</header><!-- .entry-header -->
 
@@ -146,6 +694,14 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" width="5184" height="3888" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_6236-2-1.jpg" alt="" class="wp-image-106"></figure>
+
+
+
+<p class="has-medium-font-size">   This was taken May 13, 2023, at an Airbnb on lake Erie. It was (as you can see) an amazing sunset with a boat that was basically asking to have its photo taken.</p>
+
+
+
+<p class="has-medium-font-size">   This photo got a blue at the local fair with a possible state fair, but the fair has a limit to two photos per person that can go to state fair and I had two others that went instead. Those two others are later in the list and labeled in the description  of the photos.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -155,7 +711,7 @@ img.emoji {
 <article id="post-102" class="post-102 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/log-at-lake-erie/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:49:58+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/log-at-lake-erie/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:49:58+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T14:54:02+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/log-at-lake-erie/" rel="bookmark">Log At Lake Erie</a></h3>	</header><!-- .entry-header -->
 
@@ -163,6 +719,10 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="3804" height="5073" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_5701-3-no-trash-1.jpg" alt="" class="wp-image-103"></figure>
+
+
+
+<p class="has-medium-font-size">This photo, like many of my best, was taken at lake Erie on February 20, 2023. This one doesn&#8217;t have a cool story or fancy techniques, but rather has some good editing. The original sky was mostly blank white because the sun was shining brightly directly behind the clouds. With some intense editing and many revisions, I finished with this.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -172,7 +732,7 @@ img.emoji {
 <article id="post-99" class="post-99 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/lake-erie-pathway/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:49:37+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/lake-erie-pathway/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:49:37+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T15:04:43+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/lake-erie-pathway/" rel="bookmark">Lake Erie Pathway</a></h3>	</header><!-- .entry-header -->
 
@@ -180,6 +740,14 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="3431" height="4575" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_5698-5-1.jpg" alt="" class="wp-image-100"></figure>
+
+
+
+<p class="has-medium-font-size">This one, as the name suggests, was taken at lake Erie on February 20, 2023, just like the last one. Again, the story wasn&#8217;t as good as the edit. The original photo had no left side rail and I had to add it in post using the rail on the right. To add to the difficulty of making the rail, the right rail is in the sun and the left is not, I had to remove highlights and fix shadows.</p>
+
+
+
+<p class="has-medium-font-size">I almost forgot, this was one of the ones that went to state fair. Even though I thought that the sunset one was better this one, this went and got a red because the judge said that they liked it more without the edited rail for symmetry.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -189,7 +757,7 @@ img.emoji {
 <article id="post-96" class="post-96 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/sparrow/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:48:55+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/sparrow/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:48:55+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T15:11:20+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/sparrow/" rel="bookmark">Sparrow</a></h3>	</header><!-- .entry-header -->
 
@@ -197,6 +765,10 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="3617" height="2713" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_5346-less-sharpen-1.jpg" alt="" class="wp-image-97"></figure>
+
+
+
+<p class="has-medium-font-size">This photo of an America Tree Sparrow, was taken November 2, 2022. While I was on a walk down a field, this little bird took a liking to this golden rod. I took loads of photos of this guy but in this one he looked like he was posing.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -206,7 +778,7 @@ img.emoji {
 <article id="post-93" class="post-93 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/clear-lake/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:48:39+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/clear-lake/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:48:39+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T15:16:01+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/clear-lake/" rel="bookmark">Clear Lake</a></h3>	</header><!-- .entry-header -->
 
@@ -214,6 +786,10 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="5184" height="3888" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_5058-1.jpg" alt="" class="wp-image-94"></figure>
+
+
+
+<p class="has-medium-font-size">This was an autumn excursion to Clear Lake on October 10, 2022. The trees were changing and the weather was nice, the perfect combination for a waterscape photo.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -223,7 +799,7 @@ img.emoji {
 <article id="post-90" class="post-90 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/moon/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:48:21+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/moon/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:48:21+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T16:43:52+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/moon/" rel="bookmark">Moon</a></h3>	</header><!-- .entry-header -->
 
@@ -231,6 +807,10 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="3008" height="3000" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_4627_lapl4_ap1973-1.png" alt="" class="wp-image-91"></figure>
+
+
+
+<p class="has-medium-font-size">This combination of photos, I&#8217;ll  explain later, was taken September 13, 2022. It was a clear night and the moon was shining bright, so I went outside and took about 160 pictures. Later, I used a couple of programs to align and combine the photos to add extra detail and better looks.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -240,7 +820,7 @@ img.emoji {
 <article id="post-87" class="post-87 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/red-tailed-hawk/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:47:57+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/red-tailed-hawk/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:47:57+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T15:31:51+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/red-tailed-hawk/" rel="bookmark">Red Tailed Hawk</a></h3>	</header><!-- .entry-header -->
 
@@ -248,6 +828,14 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="5184" height="3888" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_4199-fair-1.jpg" alt="" class="wp-image-88"></figure>
+
+
+
+<p class="has-medium-font-size">This picture was taken August 29, 2022, in my backyard. It was seen by a family member and I was soon notified. So out I went in the drizzling rain with my camera and an umbrella. I took hundreds of photos while it flew around from spot to spot. Finally, it landed in a good spot and I took this gem of a photo.</p>
+
+
+
+<p class="has-medium-font-size">To top it off, this was the second of the two photos to go to state fair this year. But instead of getting a red at state fair, this one got a perfect score and a purple ribbon.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -257,7 +845,7 @@ img.emoji {
 <article id="post-84" class="post-84 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/puppy/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:47:29+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/puppy/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:47:29+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T15:33:50+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/puppy/" rel="bookmark">Puppy</a></h3>	</header><!-- .entry-header -->
 
@@ -265,6 +853,10 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="5184" height="3888" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_28252-1.jpg" alt="" class="wp-image-85"></figure>
+
+
+
+<p class="has-medium-font-size">This was taken May 26, 2022, the day we got the family pup.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -274,7 +866,7 @@ img.emoji {
 <article id="post-81" class="post-81 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/ladybug/" rel="bookmark"><time class="entry-date published updated" datetime="2023-10-13T23:47:12+00:00">October 13, 2023</time></a>
+<span class="screen-reader-text">Posted on</span> <a href="https://luke.mecca1.net/2023/10/13/ladybug/" rel="bookmark"><time class="entry-date published" datetime="2023-10-13T23:47:12+00:00">October 13, 2023</time><time class="updated" datetime="2023-10-14T16:24:24+00:00">October 14, 2023</time></a>
 </div>
 <!-- .entry-meta --><h3 class="entry-title"><a href="https://luke.mecca1.net/2023/10/13/ladybug/" rel="bookmark">Ladybug</a></h3>	</header><!-- .entry-header -->
 
@@ -282,6 +874,10 @@ img.emoji {
 	<div class="entry-content">
 		
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="2732" height="2049" src="https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_2310-2-1.jpg" alt="" class="wp-image-82"></figure>
+
+
+
+<p class="has-medium-font-size">This picture was taken May 6, 2022. I was out looking for photos and found this bug on a dandelion flower. After I took the photo I cropped it and filled in some of the green grass around it that was still visible.</p>
 	</div>
 <!-- .entry-content -->
 
@@ -299,7 +895,22 @@ img.emoji {
 		</main><!-- #main -->
 	</div>
 <!-- #primary -->
-	</div>
+	
+<aside id="secondary" class="widget-area" aria-label="Blog Sidebar">
+	<section id="block-12" class="widget widget_block">
+<ul>
+<li>About Me: I am an amateur photographer who has been taking photos his entire life (I started taking photos more seriously when I was 15). I have taken many state fair photos and have a perfect state fair score and purple ribbon for one of them. But in reality I just like taking pictures and have fun improving them more and more.</li>
+
+
+
+<li>What I Use To Edit: I primarily use Gimp and occasionally use darktable.</li>
+
+
+
+<li>Website Info: This website is a work in progress and I will be adding more things to it as I go. It was created on October 13, 2023, so that is why a bunch of photos have that post date. In the description of all the photos I have the date taken listed.</li>
+</ul>
+</section></aside><!-- #secondary -->
+</div>
 <!-- .wrap -->
 
 
@@ -309,7 +920,13 @@ img.emoji {
 		<footer id="colophon" class="site-footer">
 			<div class="wrap">
 				
-<div class="site-info">
+
+	<aside class="widget-area" aria-label="Footer">
+					<div class="widget-column footer-widget-1">
+				<section id="block-13" class="widget widget_block widget_recent_comments"><div class="has-avatars has-dates has-excerpts no-comments wp-block-latest-comments">No comments to show.</div></section>			</div>
+				</aside><!-- .widget-area -->
+
+	<div class="site-info">
 		<a href="https://wordpress.org/" class="imprint">
 		Proudly powered by WordPress	</a>
 </div>
