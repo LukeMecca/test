@@ -12,13 +12,21 @@
 	<atom:link href="https://luke.mecca1.net/author/user/feed/" rel="self" type="application/rss+xml" />
 	<link>https://luke.mecca1.net/</link>
 	<description>All Photos Taken By Me, Luke</description>
-	<lastBuildDate>Fri, 29 Dec 2023 17:59:36 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 12 Feb 2024 01:20:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+
+<image>
+	<url>https://luke.mecca1.net/wp-content/uploads/2023/10/IMG_4627_lapl4_ap1973-low-res.png</url>
+	<title>Luke &#8211; My Best Photography</title>
+	<link>https://luke.mecca1.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Sunny Day Horse</title>
 		<link>https://luke.mecca1.net/2023/12/29/sunny-day-horse/</link>
@@ -30,7 +38,7 @@
 
 					<description><![CDATA[This was taken October 23, 2023 in my backyard while the new horses grassed and relaxed.]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="3888" height="5184" src="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7363.jpg" alt="" class="wp-image-224"/></figure>
+<figure class="wp-block-image size-full"><a href="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7363.jpg"><img fetchpriority="high" decoding="async" width="3888" height="5184" src="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7363.jpg" alt="" class="wp-image-224"/></a></figure>
 
 
 
@@ -147,7 +155,7 @@
 
 					<description><![CDATA[This was taken November 30, 2023 in the woods after the leaves had fallen off the trees.]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="5184" height="3888" src="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7743-2.jpg" alt="" class="wp-image-228"/></figure>
+<figure class="wp-block-image size-full"><a href="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7743-2.jpg"><img loading="lazy" decoding="async" width="5184" height="3888" src="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7743-2.jpg" alt="" class="wp-image-228"/></a></figure>
 
 
 
@@ -168,7 +176,7 @@
 
 					<description><![CDATA[This was taken October 26, 2023 at an air BnB during the night when the only thing lighting the sauna was the light on the inside.]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="3888" height="5184" src="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7545-4.jpg" alt="" class="wp-image-226"/></figure>
+<figure class="wp-block-image size-full"><a href="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7545-4.jpg"><img loading="lazy" decoding="async" width="3888" height="5184" src="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7545-4.jpg" alt="" class="wp-image-226"/></a></figure>
 
 
 
@@ -189,7 +197,7 @@
 
 					<description><![CDATA[This was taken October 27, 2023 at an air BnB in Ellicottville N.Y. on a little family vacation.]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="3888" height="5184" src="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7440.jpg" alt="" class="wp-image-225"/></figure>
+<figure class="wp-block-image size-full"><a href="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7440.jpg"><img loading="lazy" decoding="async" width="3888" height="5184" src="https://luke.mecca1.net/wp-content/uploads/2023/12/IMG_7440.jpg" alt="" class="wp-image-225"/></a></figure>
 
 
 
