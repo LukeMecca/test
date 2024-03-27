@@ -8,6 +8,14 @@ Disallow: /favorites/
 Disallow: /2023/
 Allow: /2023/12/29/sunny-day-horse/
 Allow: /2023/10/13/sunset-boat/
+Allow: /2023/12/28/winter-afternoon-chickadee/
+Allow: /2023/10/13/red-tailed-hawk/
+Allow: /2023/10/13/ladybug/
+Allow: /2023/10/13/snowy-owl/
+Allow: /2023/10/13/moon/
+Allow: /2023/10/13/posty/
+Allow: /2023/10/13/puppy/
+Allow: /2023/12/27/first-crocus-of-the-season/
 Disallow: /wp-json/
 Disallow: /css/
 Disallow: /ajax/
