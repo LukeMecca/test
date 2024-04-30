@@ -17,6 +17,7 @@ Allow: /2023/10/13/posty/
 Allow: /2023/10/13/puppy/
 Allow: /2023/12/27/first-crocus-of-the-season/
 Allow: /2023/12/28/2024-solar-eclipse/
+Allow: /wp-content/uploads/2024/04/IMG_8098-11.jpg
 Disallow: /wp-json/
 Disallow: /css/
 Disallow: /ajax/
